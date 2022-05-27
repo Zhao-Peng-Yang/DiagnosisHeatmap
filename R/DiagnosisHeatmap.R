@@ -308,9 +308,9 @@ pheat <- gtable_add_grob(pheat, heat$gtable$grobs[[3]], 9, 3)
 
 # gtable_show_layout(pheat)
 
-# pdf("heatmap.pdf",width=9,height=11.2)
+pdf("Diagnosis_Heatmap.pdf",width=9,height=11.2)
 # grid.newpage()
 plot(pheat)
-# dev.off()
+dev.off()
 }
 
