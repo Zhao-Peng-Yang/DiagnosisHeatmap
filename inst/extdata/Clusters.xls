@@ -1,0 +1,13 @@
+	Prognosis	Death	KI67Index	ENSATStage	WellsScore	OncocyticTumor	Diagnosis	TranscriptomeCluster
+con3h_1	Better	No	10%	Ⅰ	0~1	No	ACT	con3h
+con3h_2	Better	No	10%	Ⅰ	0~1	No	ACT	con3h
+con3h_3	Undef	No	10~19%	Ⅱ	0~1	No	ACT	con3h
+con3h_4	Better	No	10%	Ⅰ	0~1	No	ACT	con3h
+oe3h_1	Undef	No	10~19%	Ⅱ	3	No	ACT	oe3h
+oe3h_2	Undef	Yes	10~19%	Ⅱ	2	Yes	ACC	oe3h
+oe3h_3	Better	No	10%	Ⅲ	3	No	ACA	oe3h
+oe3h_4	Better	Yes	10~19%	Ⅱ	3	Yes	ACA	oe3h
+oe6h_1	Poor	Yes	20%	Ⅳ	7~9	Yes	ACC	oe6h
+oe6h_2	Poor	Yes	10~19%	Ⅲ	7~9	Yes	ACC	oe6h
+oe6h_3	Undef	Yes	20%	Ⅳ	4~6	Yes	ACC	oe6h
+oe6h_4	Poor	Yes	20%	Ⅳ	7~9	Yes	ACC	oe6h
