@@ -174,7 +174,8 @@ heat<-pheatmap(
 	# clustering_distance_rows = "euclidean",
   annotation_col = annotation_col, 
   annotation_colors = ann_colors,
-	cutree_col=3
+	cutree_col=3,
+  filename = "Rplots.pdf"
   )
 
 # pdf("heatmap.pdf",height=16,width=10)
@@ -228,7 +229,8 @@ pheat_1<-pheatmap(
   SomeScores[,heat$gtable$grobs[[4]]$label], 
   cluster_rows = FALSE, 
   cluster_cols = FALSE,
-  gaps_col = c(4, 8)
+  gaps_col = c(4, 8),
+  filename = "Rplots.pdf"
   )
 
 # pheat_1$gtable
@@ -253,7 +255,8 @@ pheat_2<-pheatmap(
   NMF[,heat$gtable$grobs[[4]]$label], 
   cluster_rows = FALSE, 
    cluster_cols = FALSE, 
-  gaps_col = c(4, 8)
+  gaps_col = c(4, 8),
+  filename = "Rplots.pdf"
   )
 
 pheat_2$gtable
@@ -305,9 +308,9 @@ pheat <- gtable_add_grob(pheat, heat$gtable$grobs[[3]], 9, 3)
 
 # gtable_show_layout(pheat)
 
-pdf("heatmap.pdf",width=9,height=11.2)
+# pdf("heatmap.pdf",width=9,height=11.2)
 # grid.newpage()
 plot(pheat)
-dev.off()
+# dev.off()
 }
 
